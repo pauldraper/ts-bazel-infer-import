@@ -22,8 +22,8 @@ bazel build example:ts
 Output is
 
 ```
-ERROR: /home/paul/dev/pauldraper/ts-bazel-infer-import/example/BUILD.bazel:3:1: Compiling TypeScript (devmode) //example:ts failed (Exit 1)
-example/example.ts:1:20 - error TS2307: Cannot find module 'rxjs'.
+Compiling TypeScript (devmode) //example:ts failed (Exit 1)
+example/example.ts:3:14 - error TS2742: The inferred type of 'result' cannot be named without a reference to '../external/npm/node_modules/rxjs'. This is likely not portable. A type annotation is necessary.
 
-1 import { of } from 'rxjs';
+3 export const result = of(1);
 ```
