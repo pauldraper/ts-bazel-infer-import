@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "outDir": "../target/example"
+  },
+  "extends": "../tsconfig"
+}
