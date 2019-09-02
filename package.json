@@ -1,0 +1,11 @@
+{
+    "name": "example",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+        "@bazel/typescript": "~0.36.0",
+        "lodash": "^4.17.15",
+        "rxjs": "^6.5.2",
+        "typescript": "3.6.2"
+    }
+}
